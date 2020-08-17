@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"my-clock",
+  "version":"0.0.1",
+  "description":"Chrome扩展",
+  "icons":{
+    "16":"/images/109613.png",
+    "48":"/images/109613.png",
+    "128":"/images/alarm-clock-scalable-vector-graphics-icon-png-favpng-HGxKY3v7u1vtVJ3cS2HVb0yBc.jpg"
+  },
+  "browser_action":{
+    "default_icon":{
+      "19":"/images/109613.png"
+    },
+    "default_title":"我的时钟",
+    "default_popup":"popup.html"
+  }
+}
