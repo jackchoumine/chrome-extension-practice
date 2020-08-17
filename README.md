@@ -2,7 +2,7 @@
  * @Description: 
  * @Date: 2020-08-17 22:43:23 +0800
  * @Author: JackChouMine
- * @LastEditTime: 2020-08-17 23:39:13 +0800
+ * @LastEditTime: 2020-08-18 00:13:38 +0800
  * @LastEditors: JackChouMine
 -->
 # Chrome 扩展学习记录
@@ -85,3 +85,12 @@ console.log('我的第一个扩展')
 // 这种弹窗体验极差，不要使用
 alert('hello extension')
 ```
+打开 `chrome://extensions/` --→ 打开 `开发者模式`，加载已解压的扩展，可把扩展加载到 chrome 中：
+
+开发者面板的 chrome 扩展：
+
+![开发者面板的扩展](https://raw.githubusercontent.com/jackchoumine/jack-picture/master/chrome-development/%E6%89%A9%E5%B1%95%E4%BF%A1%E6%81%AF.png)
+
+工具栏的扩展：
+
+![工具栏的扩展信息](https://raw.githubusercontent.com/jackchoumine/jack-picture/master/chrome-development/工具栏的扩展.png)
